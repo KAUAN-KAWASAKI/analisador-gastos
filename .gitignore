@@ -226,3 +226,7 @@ __marimo__/
 .claude/
 CLAUDE.md
 graphify-out/
+
+# Extratos reais (so o exemplo vai pro Git)
+dados/*
+!dados/exemplo.csv
