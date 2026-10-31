@@ -1,4 +1,5 @@
 # grafico.py
+import os
 import matplotlib.pyplot as plt
 from leitor import ler_extrato
 from categorias import adicionar_categoria
@@ -30,5 +31,6 @@ def grafico_mensal(df, caminho):
 if __name__ == "__main__":
     df = ler_extrato("dados/exemplo.csv")
     df = adicionar_categoria(df)
+    os.makedirs("img", exist_ok=True)
     grafico_categorias(df, "img/gastos_por_categoria.png")
     grafico_mensal(df, "img/gastos_por_mes.png")
