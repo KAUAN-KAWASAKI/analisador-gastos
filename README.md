@@ -1,5 +1,7 @@
 # analisador-gastos
 
+[![Testes](https://github.com/KAUAN-KAWASAKI/analisador-gastos/actions/workflows/testes.yml/badge.svg)](https://github.com/KAUAN-KAWASAKI/analisador-gastos/actions/workflows/testes.yml)
+
 Analisador de gastos pessoais em Python. Lê o extrato do banco em CSV, classifica cada lançamento em uma categoria, resume os gastos por mês e por categoria e gera gráficos em PNG.
 
 ## Gráficos
